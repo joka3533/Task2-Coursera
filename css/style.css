@@ -15,8 +15,6 @@ h1{
 	background-color:grey;
 	position:relative;
 	font-family:"Comic Sans MS", cursive, sans-serif;
-
-	;
 }
 
 .podnaslov{
@@ -29,25 +27,22 @@ h1{
 	top:0px;
 	width:25%;
 	padding:2px;
-	
 }
 
 #nas1{
 	background-color:#d47272;
-	
 }
 
 #nas2{
 	background-color:#900000;
 	color:white;
 }
-
 #nas3{
 	background-color:#ccc46e;
 }
+
 p{
 	margin:35px 8px 2px;
-	
 }
 
 #box1{
@@ -67,23 +62,20 @@ p{
 	margin:0 auto;
 	padding:0;
 	display:flex;
-
-	}
+}
 	.container{
 		width:30%;
-	    height:100%;
-	    float:left;
-        display:center;
-	    flex-grow:1;
+	    	height:100%;
+	    	float:left;
+        	display:center;
+	   	flex-grow:1;
 		overflow:hidden;
-}
+	}
 
 }
 	
 
 @media (min-width:768px) and (max-width:991px){
-	.holder{
-	}
 	.container{
 		margin:10%;
 	}
@@ -91,7 +83,6 @@ p{
 		width:45%;
 		height:100%;
 		float:left;
-
 	}
 	#box2{
 		width:45%;
