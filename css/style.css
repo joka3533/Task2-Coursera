@@ -1,0 +1,115 @@
+
+h1{
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:90px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.holder{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.container{
+	border:1px solid black;
+	background-color:grey;
+	position:relative;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+
+	;
+}
+
+.podnaslov{
+	border:1px solid black;
+	text-align:center;
+	font-weight:bold;
+	font-size:125%;
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:25%;
+	padding:2px;
+	
+}
+
+#nas1{
+	background-color:#d47272;
+	
+}
+
+#nas2{
+	background-color:#900000;
+	color:white;
+}
+
+#nas3{
+	background-color:#ccc46e;
+}
+p{
+	margin:35px 8px 2px;
+	
+}
+
+#box1{
+	margin:2%;
+}          
+		   
+#box2{     
+	margin:2%;
+}          
+		  
+#box3{     
+	margin:2%;
+}
+
+@media (min-width:992px) {
+	.holder{
+	margin:0 auto;
+	padding:0;
+	display:flex;
+
+	}
+	.container{
+		width:30%;
+	    height:100%;
+	    float:left;
+        display:center;
+	    flex-grow:1;
+		overflow:hidden;
+}
+
+}
+	
+
+@media (min-width:768px) and (max-width:991px){
+	.holder{
+	}
+	.container{
+		margin:10%;
+	}
+	#box1{
+		width:45%;
+		height:100%;
+		float:left;
+
+	}
+	#box2{
+		width:45%;
+		height:100%;
+		float:right;
+	}
+	#box3{
+		float:left;
+		width:95%;
+		height:100%;
+	}
+}
+
+@media (min-width:10px) and (max-width:767px){
+	.container{
+		float:left;
+		width:100%;
+		height:100%;
+		margin:2%;
+	}
+}
